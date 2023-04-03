@@ -1,0 +1,26 @@
+import java.util.Scanner;  // java program that promts user to enter a number and  determine positive or negative
+
+
+public class day1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        int n = sc.nextInt();
+        if(n>0)
+        {
+            System.out.println("number is positive");
+
+        }
+        else {
+            System.out.println("number is negative");
+        }
+    }
+}
+
+output
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=58749:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\91939\IdeaProjects\lecture-3\out\production\lecture-3 day1
+enter a number
+12
+number is positive
+
+Process finished with exit code 0
